@@ -1,1 +1,1 @@
-SHIT
+uje muje dzikie wensze
