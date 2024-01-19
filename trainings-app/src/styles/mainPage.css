@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.headerUser {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.35);
+  padding: 0px 0 0 30px;
+  min-width: 100%;
+  border-radius: 15px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  filter: drop-shadow(0 0 0.75rem rgb(255, 102, 0));
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 15px;
+}
+
+.logout {
+  width: 114px;
+  height: 34px;
+  background: #ffffff;
+  border: 1px solid #ad6628;
+  border-radius: 15px;
+  margin: 38px 31px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.logout:hover{
+  background: #ffa600;
+}
+
+.orangeButton {
+  width: 145px;
+  height: 35px;
+  background: #e0995a;
+  border: 1px solid #ad6628;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 38px 31px;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.orangeButton:hover {
+  cursor: pointer;
+  background-color: #f3c7a8;
+}
+
+.mainUser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 120px;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(134 128 221 / 15%);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.15);
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.trainingLogoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainingLogo {
+  width: 70%;
+  margin: 25px 0;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 7px 10px 7px;
+}
+
+.description {
+  display: block;
+  height: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  padding: 0px 7px 22px 7px;
+}
+
+.aboutCourse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin: 0 15px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.information:nth-of-type(1) {
+  padding-right: 5px;
+}
+
+.information:nth-of-type(2) {
+  padding-left: 5px;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
+.spanUser {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  padding-left: 5px;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.registerOrangeButton {
+  width: 111px;
+  height: 31.82px;
+  background: #e0995a;
+  border: 1px solid #ad6628;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.registerOrangeButton:hover {
+  cursor: pointer;
+  background-color: #f3c7a8;
+}
+
+.updateButton {
+  width: 65px;
+  height: 25px;
+  border: none;
+  border-radius: 7px;
+  background-color: #4caf50;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.deleteButton {
+  width: 65px;
+  height: 25px;
+  border: none;
+  border-radius: 7px;
+  background-color: #c0392b;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+}
+
+.deleteButton:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.updateButton:hover {
+  background-color: #00ee10;
+  cursor: pointer;
+}
+
+.registerLabel {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  padding-bottom: 15px;
+  color: #00ee10;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 670px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
